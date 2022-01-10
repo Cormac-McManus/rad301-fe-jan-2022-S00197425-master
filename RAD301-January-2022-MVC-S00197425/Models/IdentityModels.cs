@@ -21,7 +21,7 @@ namespace RAD301_January_2022_MVC_S00197425.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("Rad301January2022Connection", throwIfV1Schema: false)
         {
         }
 
